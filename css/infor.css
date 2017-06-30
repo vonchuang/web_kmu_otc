@@ -1,0 +1,240 @@
+﻿@charset "utf-8";
+
+#content-center h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    font-family: DFKai-SB;
+}
+
+#content-center h3{
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+    font-family: DFKai-SB;
+    background: none;
+    border-bottom: none;
+    margin-bottom: 2px;
+}
+
+#text{
+    font-size: 20px;
+    text-align: justify;
+    font-family: DFKai-SB;
+}
+
+#text::after{
+    content: '';
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+}
+
+#text strong{
+    font-weight: bold;
+}
+
+#writer{
+    text-align: right;
+}
+
+.article-2{
+    display: none;
+}
+
+.article-3{
+    display: none;
+}
+
+.article-4{
+    display: none;
+}
+
+.article-5{
+    display: none;
+}
+
+.article-6{
+    display: none;
+}
+
+.article-7{
+    display: none;
+}
+
+.article-8{
+    display: none;
+}
+
+.article-9{
+    display: none;
+}
+
+.article-10{
+    display: none;
+}
+
+.article-11{
+    display: none;
+}
+
+.article-12{
+    display: none;
+}
+
+.article-13{
+    display: none;
+}
+
+#second-nav-title h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*================= organ =====================*/
+#organ-1 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-2 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-3 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-4 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-5 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-6 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-7 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-8 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-9 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-10 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-11 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/*==================== organ end ==================*/
+
+/*==================== lung =======================*/
+#lung-1 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#lung-2 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+/*==================== lung end ===================*/
+
+/*==================== med ========================*/
+#med-1 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#med-1 strong{
+    text-indent: 0px;
+}
+
+#med-2 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/*==================== med end =====================*/
+
+/*==================== nutro ======================*/
+#nut-2 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#nut-2 li{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/*==================== nutro end ======================*/
+
+#health a{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    text-decoration: none;
+    color: black;
+}
+
+#health a:hover{
+    font-weight: bold;
+}
+

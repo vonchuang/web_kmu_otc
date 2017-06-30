@@ -1,0 +1,33 @@
+﻿@charset "UTF-8";
+
+#content-link h4 {
+    font-weight: bold;
+}
+
+#content-link dt{
+    font-weight: bold;
+}
+
+#content-photo h4{
+    font-weight: bold;
+}
+
+#content-story h4{
+    font-weight: bold;
+}
+
+.footer-column dt{
+    font-weight: bold;
+}
+
+#category-title h2{
+    font-weight: bold;
+}
+
+#content-center h3{
+    font-weight: bold;
+}
+
+#content-icu h4{
+    font-weight: bold;
+}
