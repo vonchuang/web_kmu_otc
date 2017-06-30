@@ -38,7 +38,7 @@
 }
 
 #content-left{
-    width: 160px;
+    width: 180px;
     float: left;
     margin-right: 20px;
 }
@@ -116,7 +116,7 @@
 
 /*=================== content center ================== */
 #content-center-right{
-    width: 890px;
+    width: 870px;
     float: right;
     padding-top: 20px;
     min-height: 800px;
@@ -126,7 +126,7 @@
 }
 
 #content-center{
-    width: 650px;
+    width: 630px;
     float: left;
     padding-top: 20px;
     margin-left: 10px;
