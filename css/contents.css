@@ -129,7 +129,7 @@
     padding-top: 20px;
     background-color: #f3f3f3;
     position: relative;
-    z-index: 2;
+    z-index: 5;
 }
 
 #content-center h3{
