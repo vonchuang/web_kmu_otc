@@ -175,6 +175,8 @@ img{
     clear: both;
     background: url(../img/bg.png) no-repeat fixed;
     background-size: cover;
+    z-index: 3;
+    position: absolute;
 }
 
 #footer-inner{
@@ -231,6 +233,7 @@ img{
 
 #copyright{
     clear: both;
+    z-index: 10;
 }
 
 #copyright address{

@@ -25,6 +25,8 @@
     margin: 0 auto;
     clear: both;
     display:table; 
+    position: fixed;
+    z-index: 1;
 }
 
 #category-title h2{ /*category title text*/
@@ -39,6 +41,11 @@
     width: 180px;
     float: left;
     margin-right: 20px;
+    z-index: 1;
+}
+
+.local-nav{
+    position: fixed;
 }
 
 .local-nav li{
