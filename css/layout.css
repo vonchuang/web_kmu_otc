@@ -175,8 +175,8 @@ img{
     clear: both;
     background: url(../img/bg.png) no-repeat fixed;
     background-size: cover;
-    z-index: 3;
-    position: absolute;
+    z-index: 5;
+    position: relative;
 }
 
 #footer-inner{

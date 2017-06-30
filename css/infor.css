@@ -17,6 +17,18 @@
     margin-bottom: 2px;
 }
 
+#category-title{
+    margin: 0 auto;
+    clear: both;
+    display:table; 
+    position: relative;
+    z-index: 1;
+}
+
+.local-nav{
+    position: relative;
+}
+
 #text{
     font-size: 20px;
     text-align: justify;

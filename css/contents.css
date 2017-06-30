@@ -41,7 +41,6 @@
     width: 180px;
     float: left;
     margin-right: 20px;
-    z-index: 1;
 }
 
 .local-nav{
@@ -128,6 +127,9 @@
     width: 650px;
     float: left;
     padding-top: 20px;
+    background-color: #f3f3f3;
+    position: relative;
+    z-index: 2;
 }
 
 #content-center h3{
