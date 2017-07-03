@@ -112,6 +112,10 @@
     text-align: right;
 }
 
+.article-0{
+    display: none;
+}
+
 .article-2{
     display: none;
 }
