@@ -7,6 +7,21 @@
     font-family: DFKai-SB;
 }
 
+/* for article-0 */
+#content-center h2{
+    background: url(../img/bg_center_h3.png) no-repeat;
+    background-size:20px 20px;
+    padding: 5px 10px 5px 20px;
+    background-position: left center;
+    border-bottom: 1px groove #03ae6f;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    clear: both;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(5, 70, 44);
+}
+
 #content-center h3{
     font-size: 20px;
     font-style: italic;
