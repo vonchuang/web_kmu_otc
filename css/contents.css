@@ -11,6 +11,12 @@
     text-align: left;
     width: 100%;
     height: 98px;
+    margin-bottom: 10px;
+    background: url(../img/nav-bg.png) no-repeat;
+    background-size:170px 35px;
+    background-position: left bottom;
+    padding: 0px 0px 12px 0px;
+
 }
 
 #category-title{
@@ -20,6 +26,13 @@
 }
 
 #category-title h2{ /*category title text*/
+    background: url(../img/nav-title.png) no-repeat;
+    background-size:20px 20px;
+    padding: 5px 5px 0px 25px;
+    background-position: left bottom;
+    clear: both;
+    font-size: 20px;
+    color: rgb(5, 70, 44);
     width: 175px;
     height: 98px;
     display: table-cell; 
@@ -50,6 +63,7 @@
 
 .local-nav a{
     width: 170px;
+    height: 30px;
 }
 
 .local-nav li a, .dropbtn{
