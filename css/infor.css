@@ -347,3 +347,17 @@
     font-weight: bold;
 }
 
+#content-center p{
+    font-family: "微軟正黑體",Arial,Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+#content-center h1{
+    font-family: "微軟正黑體",Arial,Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+
+#content-center h3{
+    font-family: "微軟正黑體",Arial,Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
