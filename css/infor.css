@@ -50,7 +50,7 @@
 
 
 .second-nav a{
-    display: block;
+    display:  block;
     background-color: #f3f3f3;
     text-decoration: none;
 	text-indent: 10px;
@@ -59,6 +59,8 @@
     font-weight: bold;
     border-bottom: dashed 1px #999;
     width: 180px;
+    min-height: 29px;
+    vertical-align: central;
 }
 
 .second-nav a:hover{
