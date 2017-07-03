@@ -170,6 +170,22 @@
 }
 
 /*================= organ =====================*/
+#organ-0 p{
+    text-indent: 32px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#organ-0 a{
+    color: black;
+    text-decoration: none;
+}
+
+#organ-0 a:hover{
+    font-weight: bold;
+}
+
 #organ-1 p{
     text-indent: 32px;
     line-height: 25px;
