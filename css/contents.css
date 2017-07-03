@@ -63,7 +63,7 @@
 
 .local-nav a{
     width: 170px;
-    height: 30px;
+    height: 20px;
 }
 
 .local-nav li a, .dropbtn{
@@ -84,6 +84,7 @@
 
 .local-nav a:hover{
 	color: white;
+	background-color: #555;
 }
 
 .local-nav li.dropdown{
