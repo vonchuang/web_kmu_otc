@@ -113,7 +113,7 @@
     padding: 5px 10px 5px 20px;
     background-position: left center;
     border-bottom: 1px groove #03ae6f;
-    margin-bottom: 20px;
+    margin-top: 20px;
     clear: both;
     font-size: 20px;
     color: rgb(5, 70, 44);
@@ -125,13 +125,20 @@
 
 
 #content-center p{
-    margin-bottom: 10px;
+    line-height: 25px;
 }
 
 #content-center ul{
     list-style:circle;
     margin-left: 20px;
-    margin-bottom: 10px;
+    line-height: 25px;
+
+}
+
+#content-center li{
+    font-family: "微軟正黑體",Arial,Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    
 
 }
 
