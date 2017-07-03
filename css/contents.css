@@ -68,7 +68,9 @@
 	color: white;
 }
 
-
+.local-nav a:hover{
+	color: white;
+}
 
 .local-nav li.dropdown{
     display: inline-block;
