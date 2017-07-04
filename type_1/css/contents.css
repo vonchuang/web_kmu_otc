@@ -57,7 +57,7 @@
     background-position: left center;
     float: left;
 	border-bottom: dashed 1px #999;
-    width: 170px;
+    width: 180px;
     height: 30px;
 }
 
@@ -126,6 +126,10 @@
 
 
 #content-center p{
+    line-height: 25px;
+}
+
+#content-center dd{
     line-height: 25px;
 }
 
