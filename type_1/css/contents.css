@@ -231,6 +231,10 @@
     margin-left: 20px;
 }
 
+#content-right h4{
+    line-height: 25px;
+}
+
 #content-photo{
     width: 200px;
     height: 160px;
