@@ -82,7 +82,7 @@
     -o-transition: 0.5s all;
 }
 
-.local-nav a:hover::before{
+.local-nav a:hover::before, .dropdown:hover .dropbtn::before{
     color: #56a0f4;
     -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
