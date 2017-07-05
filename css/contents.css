@@ -64,13 +64,30 @@
 }
 
 .local-nav a{
-    background: url(../img/local-nav.png) no-repeat;
-    padding: 15px 5px 0px 5px;
-    background-position: left center;
     width: 130px;
     height: 20px;
-    text-align: center;
+    text-align: left;
 	border-bottom: dashed 1px white;
+}
+
+/* ref : https://stackoverflow.com/questions/15170820/rotating-a-background-image-with-css3 */
+
+.local-nav a::before{
+    content: '◈';
+    color: white;
+    float: left;
+    margin: 0px 1px 0px 0px;
+    -moz-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.local-nav a:hover::before{
+    color: #56a0f4;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
 }
 
 .local-nav li a, .dropbtn{

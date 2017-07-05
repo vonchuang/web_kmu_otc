@@ -71,6 +71,18 @@
     background-size: 180px 41px;
 }
 
+.local-nav .second-nav a::before{
+    content: ' ';
+}
+
+.local-nav .second-nav a:hover::before{
+    color: #56a0f4;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+
 .dropdown:hover .second-nav{
     display: block;
 }
