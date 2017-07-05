@@ -47,7 +47,7 @@
         <div id="header" class="clearfix">
             <a name="top"></a>
             <div id="header-inner" class="clearfix">
-                <div id="logo" class="animated fadeInLeft">
+                <div id="logo">
                     <a href="../intro">
                         <h2>高醫移植中心</h2>
                         <h3>Organ Transplantation Center</h3>
@@ -56,54 +56,54 @@
                 <div id="header-right">
 
                     <!-- =========== header menu ================-->
-                    <div id="header-menu" class="clearfix">
-                        <ul class="clearfix" id="nav_header">
-                            <li class="menu-parent">
-                                <a href="../intro">科室簡介</a>
-                                <ul>
-                                    <li><a href="../intro#about">關於本科</a></li>
-                                    <li><a href="../intro#history">創立沿革</a></li>
-                                    <li><a href="../intro#work">工作目標</a></li>
-                                    <li><a href="../intro#goal">願景展望</a></li>
-                                    <li><a href="../intro#research">研究成果</a></li>
-                                </ul>
+                    <div id="header-menu">
+                        <ul>
+                            <li class="nav-drop">
+                                <a class="nav-dropbtn" href="../intro">科室簡介</a>
+                                <div class="nav-drop-content">
+                                    <a href="../intro#about">關於本科</a>
+                                    <a href="../intro#history">創立沿革</a>
+                                    <a href="../intro#work">工作目標</a>
+                                    <a href="../intro#goal">願景展望</a>
+                                    <a href="../intro#research">研究成果</a>
+                                </div>
                             </li>
-                            <li class="menu-parent2">
+                            <li>
                                 <a href="../news">最新消息</a>
                             </li>
-                            <li class="menu-parent3">
-                                <a href="../team">醫療團隊</a>
-                                <ul>
-                                    <li><a target="_blank" href="http://www2.kmuh.org.tw/web/kmuhdept/hand/">手移植</a></li>
-                                    <li><a href="../team">醫療團隊</a></li>
-                                </ul>
+                            <li class="nav-drop">
+                                <a class="nav-dropbtn" href="../team">醫療團隊</a>
+                                <div class="nav-drop-content">
+                                    <a target="_blank" href="http://www2.kmuh.org.tw/web/kmuhdept/hand/">手移植</a>
+                                    <a href="../team">醫療團隊</a>
+                                </div>
                             </li>
-                            <li class="menu-parent4">
-                                <a href="../equipment">醫療設備</a>
-                                <ul>
-                                    <li><a href="../equipment#icu">加護病房</a></li>
-                                    <li><a href="../equipment#char">醫療特色</a></li>
-                                </ul>
+                            <li class="nav-drop">
+                                <a class="nav-dropbtn" href="../equipment">醫療設備</a>
+                                <div class="nav-drop-content">
+                                    <a href="../equipment#icu">加護病房</a>
+                                    <a href="../equipment#char">醫療特色</a>
+                                </div>
                                 <!-- menu-child2 end -->
                             </li>
-                            <li class="menu-parent5">
-                                <a href="../orginfor">衛教資訊</a>
-                                <ul>
-                                    <li><a href="../orginfor">簡介器官捐贈與移植</a></li>
-                                    <li><a href="../liverinfor">關於肝臟移植</a></li>
-                                    <li><a href="../kidneyinfor">關於腎臟移植</a></li>
-                                    <li><a href="../heartinfor">關於心臟移植</a></li>
-                                    <li><a href="../pancreasinfor">關於胰臟移植</a></li>
-                                    <li><a href="../lunginfor">關於肺臟移植</a></li>
-                                    <li><a href="../handinfor">關於手移植</a></li>
-                                    <li><a href="../afterinfor">移植術後護理</a></li>
-                                    <li><a href="../medinfor">移植用藥指導</a></li>
-                                    <li><a href="../nutinfor">移植營養衛教</a></li>
-                                    <li><a href="../healthinfor">衛教手冊</a></li>
-                                </ul>
+                            <li class="nav-drop">
+                                <a class="nav-dropbtn" href="../orginfor">衛教資訊</a>
+                                <div class="nav-drop-content nav-orginfor">
+                                    <a style="text-indent: 0px;" href="../orginfor">簡介器官捐贈與移植</a>
+                                    <a href="../liverinfor">關於肝臟移植</a>
+                                    <a href="../kidneyinfor">關於腎臟移植</a>
+                                    <a href="../heartinfor">關於心臟移植</a>
+                                    <a href="../pancreasinfor">關於胰臟移植</a>
+                                    <a href="../lunginfor">關於肺臟移植</a>
+                                    <a href="../handinfor">關於手移植</a>
+                                    <a href="../afterinfor">移植術後護理</a>
+                                    <a href="../medinfor">移植用藥指導</a>
+                                    <a href="../nutinfor">移植營養衛教</a>
+                                    <a href="../healthinfor">衛教手冊</a>
+                                </div>
                                 <!-- menu-child3 end -->
                             </li>
-                            <li class="menu-parent6">
+                            <li>
                                 <a href="../english">English</a>
                             </li>
                         </ul>
@@ -679,11 +679,6 @@
                         <!-- =============== content right ================= -->
                         <div id="content-right" class="clearfix">
 
-                            <div id="content-music" class="clearfix">
-                                <iframe width="160" height="100" src="https://www.youtube.com/embed/JnmZdTiyE-Q?&autoplay=1" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <!-- content-music end -->
-
                             <div id="content-photo" class="clearfix">
                                 <h4><a href="../photo">照片錦囊</a></h4>
                                 <div id="content-photo-inner" class="clearfix">
@@ -741,99 +736,7 @@
 
         </div>
         <!-- content end -->
-        <!-- ================== footer ==================== -->
-        <div id="footer">
-            <div id="footer-inner" class="clearfix">
-                <div id="footer-content" class="clearfix">
-                    <div class="footer-column">
-                        <dl>
-                            <dt><a href="../intro">科室介紹</a></dt>
-                            <dd><a href="../intro#about">關於本科</a></dd>
-                            <dd><a href="../intro#history">創立沿革</a></dd>
-                            <dd><a href="../intro#work">工作目標</a></dd>
-                            <dd><a href="../intro#goal">願景展望</a></dd>
-                            <dd><a href="../intro#research">研究成果</a></dd>
-                        </dl>
-                    </div>
-                    <!-- footer-column-1 end-->
 
-                    <div class="footer-column">
-                        <dl>
-                            <dt><a href="../news">最新消息</a></dt>
-                        </dl>
-                    </div>
-                    <!-- footer-column-2 end-->
-
-                    <div class="footer-column">
-                        <dl>
-                            <dt><a href="../team">醫療團隊</a></dt>
-                            <dd><a target="_blank" href="http://www2.kmuh.org.tw/web/kmuhdept/hand/">手移植</a></dd>
-                            <dd><a href="../team">醫療團隊</a></dd>
-                        </dl>
-                    </div>
-                    <!-- footer-column-3 end-->
-
-                    <div class="footer-column">
-                        <dl>
-                            <dt><a href="../equipment">醫療設備</a></dt>
-                            <dd><a href="../equipment#icu">加護病房</a></dd>
-                            <dd><a href="../equipment#char">醫療特色</a></dd>
-                        </dl>
-                    </div>
-                    <!-- footer-column-4 end-->
-
-                    <div class="footer-column">
-                        <dl>
-                            <dt><a href="../orginfor">衛教資訊</a></dt>
-                            <dd><a href="../orginfor">簡介器官捐贈與移植</a></dd>
-                            <dd><a href="../liverinfor">關於肝臟移植</a></dd>
-                            <dd><a href="../kidneyinfor">關於腎臟移植</a></dd>
-                            <dd><a href="../heartinfor">關於心臟移植</a></dd>
-                            <dd><a href="../pancreasinfor">關於胰臟移植</a></dd>
-                            <dd><a href="../lunginfor">關於肺臟移植</a></dd>
-                            <dd><a href="../handinfor">關於手移植</a></dd>
-                            <dd><a href="../afterinfor">移植術後護理</a></dd>
-                            <dd><a href="../medinfor">移植用藥指導</a></dd>
-                            <dd><a href="../nutinfor">移植營養衛教</a></dd>
-                            <dd><a href="../healthinfor">衛教手冊</a></dd>
-                        </dl>
-                    </div>
-                    <!-- footer-column-5 end-->
-
-                    <div class="footer-column">
-                        <dl>
-                            <dt><a href="../photo">照片集錦</a></dt>
-                        </dl>
-                    </div>
-                    <!-- footer-column-6 end-->
-
-                    <div class="footer-column">
-                        <dl>
-                            <dt><a href="../link">相關連結</a></dt>
-                        </dl>
-                    </div>
-                    <!-- footer-column-7 end-->
-
-                    <div class="footer-column">
-                        <dl>
-                            <dt><a href="../story">捐贈者故事</a></dt>
-                        </dl>
-                    </div>
-                    <!-- footer-column-8 end-->
-
-                    <div class="footer-column">
-                        <dl>
-                            <dt><a href="../english">English</a></dt>
-                        </dl>
-                    </div>
-                    <!-- footer-column-9 end-->
-
-                </div>
-                <!-- footer-content end -->
-            </div>
-            <!-- footer-inner end -->
-        </div>
-        <!-- footer end -->
         <!-- ============ copyright ================== -->
         <div id="copyright">
             <address>

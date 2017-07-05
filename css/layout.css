@@ -110,6 +110,7 @@ img{
     height:80px; 
     margin-top: 5px;
     background: url(../img/nav-header.png) no-repeat;
+    background-position: -5px 0px;
     position: relative;
     z-index: 100;
 }
@@ -225,6 +226,7 @@ img{
 #header-menu .nav-drop-content a:hover{
     text-decoration:none;
     background: url(../img/nav-hover.png) no-repeat;
+    background-size: 180px 41px;
 }
 
 .nav-drop:hover .nav-drop-content{

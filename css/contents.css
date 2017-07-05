@@ -65,7 +65,7 @@
 
 .local-nav a{
     background: url(../img/local-nav.png) no-repeat;
-    padding: 5px 5px 0px 5px;
+    padding: 15px 5px 0px 5px;
     background-position: left center;
     width: 130px;
     height: 20px;
@@ -76,10 +76,9 @@
 .local-nav li a, .dropbtn{
     display: inline-block;
     text-decoration: none;
-	text-indent: 10px;
 	color: white;
     font-weight: bold;   
-    padding: 5px 7px;
+    padding: 7px 0px;
 }
 
 
@@ -110,7 +109,7 @@
     width: 630px;
     float: left;
     padding-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 #content-center h3{

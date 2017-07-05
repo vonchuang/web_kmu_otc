@@ -34,40 +34,41 @@
 }
 
 /*=========== second nav ===================*/
+.local-nav a{
+    width: 160px;
+}
 
-
-.second-nav {
+.local-nav .second-nav {
     display: none;
     float: right;
     z-index: 1;
     margin: 0;
-    width: 195px;
+    width: 180px;
     position: absolute;
     margin-left: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border: solid 1px #999;
-    animation-duration: 0.7s;
 }
 
 
-.second-nav a{
-    display:  block;
-    background-color: #f3f3f3;
+.local-nav .second-nav a{
+    display: inline-block;
+    background: url(../img/nav-header-drop.png) no-repeat;
     text-decoration: none;
 	text-indent: 10px;
-    padding: 5px 7px;
-	color: rgb(53,75,118);
+    color: #383838;
     font-weight: bold;
-    border-bottom: dashed 1px #999;
     width: 180px;
-    min-height: 29px;
-    vertical-align: central;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-align: left;
 }
 
-.second-nav a:hover{
+.local-nav .second-nav a:hover{
     text-decoration:none;
-	background-color: #555;
-	color: white;
+    background: url(../img/nav-hover.png) no-repeat;
+    background-size: 180px 41px;
 }
 
 .dropdown:hover .second-nav{
@@ -75,35 +76,35 @@
 }
 
 #nav-orginfor{
-    top: 330px;
+    top: 405px;
 }
 
 #nav-liverinfor{
-    top: 361px;
+    top: 439px;
 }
 
 #nav-kidneyinfor{
-    top: 391px;
+    top: 480px;
 }
 
 #nav-heartinfor{
-    top: 423px;
+    top: 520px;
 }
 
 #nav-lunginfor{
-    top: 485px;
+    top: 603px;
 }
 
 #nav-afterinfor{
-    top: 547px;
+    top: 687px;
 }
 
 #nav-medinfor{
-    top: 578px;
+    top: 727px;
 }
 
 #nav-nutinfor{
-    top: 609px;
+    top: 764px;
 }
 
 /* ========== second nav end =================*/
