@@ -38,11 +38,13 @@ img{
 }
 #wrapper{
     width: 1080px;
+    min-height: 1080px;
     margin: auto;
     font-family: "微軟正黑體",Arial,Arial, Helvetica, sans-serif;
     background: url(../img/headimg.png) no-repeat;
     background-size: 1080px 210px;
     background-position-x: 90%;
+    background-color: #f3f3f3;
 }
 
 #header{
@@ -61,21 +63,18 @@ img{
 }
 
 #header-inner #header-right{
-    float: right;
-    width:1080px;
-    height:100px; 
 }
 
 #logo{
-    width: 400px;
+    width: 350px;
     height: 70px;
     text-align: left;
     background: url(../img/logo.png) no-repeat;
     background-size: 50px 50px;
-    background-color: rgba(4, 221, 142,0.7);
     animation-delay: 0.8s;
     animation-duration: 1.5s;
     margin-top: 30px;
+    border-bottom: solid 7px #143180;
 }
 
 #logo a{
@@ -97,55 +96,139 @@ img{
 }
 
 /* ========== header-menu ================*/
-#header-menu{
-    clear: both;
-    height: 40px;
-    vertical-align: bottom;
-    margin-top: 100px;
-    float: right;
+#header-right{
+    width: 1080px;
+    height:80px; 
+    margin-top: 90px;
+    float: left;
+    background: url(../img/header-right-bg.png) repeat-x;
+    background-size: 1080px 10px;
 }
 
-#nav_header ul,#nav_header li{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+#header-menu{
+    width: 1080px;
+    height:80px; 
+    margin-top: 5px;
+    background: url(../img/nav-header.png) no-repeat;
+    position: relative;
     z-index: 100;
 }
 
-
-
-#nav_header a{
-    background-color: rgb(204,204,204);
-    text-decoration: none;
-	text-indent: 10px;
-	border-top: 1px solid #ccc;
-	border-left:1px solid #ccc;
-	border-right:1px solid #999;
-	border-bottom:2px solid #999;
-	margin: 0px;
-	padding: 0px;
-	color: rgb(53,75,118);
-    font-weight: bold;
+#nav_header ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    clear: none;
 }
 
-#nav_header a:hover{
-    text-decoration:none;
-	border-top:1px solid #999;
-	border-left:1px solid #999;
-	border-right:1px solid #ccc;
-	border-bottom:1px solid #ccc;
-	background-color: #555;
+#nav_header li{
+    width: 180px;
+    height: 71px;
+}
+
+#nav_header a{
+    width: 179px;
+    height: 71px;
+    display: inline-block;
+    text-decoration: none;
+	text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
 	color: white;
 }
 
-#nav_header .stack > a{
-    background-image: url(../img/arrow.png);
-    background-repeat: no-repeat;
-    background-position: 97% 8px;
+
+#header-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-#nav_header .stack > a:hover{
-    background-position: 97% -78px;
+#header-menu li{
+    float: left;
+	border-right:1px solid #999;
+}
+
+#header-menu a{
+    width: 179px;
+    height: 71px;
+    font-size: 20px;
+    line-height: 71px;
+}
+
+#header-menu li a, .nav-dropbtn{
+    display: inline-block;
+    text-decoration: none;
+	text-indent: 10px;
+    color: white;
+    font-weight: bold;   
+    padding: 0px;
+    text-indent: 50px;
+}
+
+.nav-drop{
+    background: url(../img/arrow-1.png) no-repeat;
+    background-position: 97% 30px;
+}
+
+.nav-drop:hover{
+    background: url(../img/arrow-2.png) no-repeat;
+    background-position: 97% 30px;
+}
+
+#header-menu li:hover, .nav-drop:hover .nav-dropbtn{
+    text-decoration:none;
+	color: white;
+}
+
+#header-menu a:hover{
+	color: white;
+}
+
+#header-menu li.nav-drop{
+    display: inline-block;
+}
+
+.nav-drop-content {
+    display: none;
+    float: right;
+    z-index: 1;
+    margin: 0;
+    margin-left: 3px;
+    width: 180px;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    animation-duration: 0.7s;
+}
+
+
+#header-menu .nav-drop-content a{
+    display: inline-block;
+    background: url(../img/nav-header-drop.png) no-repeat;
+    text-decoration: none;
+	text-indent: 50px;
+    font-weight: bold;
+    line-height: 41px;
+    width: 180px;
+    height: 41px;
+    margin: 0px;
+    padding: 0px;
+    color: #383838;
+}
+
+#header-menu .nav-drop .nav-orginfor a{
+	text-indent: 30px;
+}
+
+#header-menu .nav-drop-content a:hover{
+    text-decoration:none;
+    background: url(../img/nav-hover.png) no-repeat;
+}
+
+.nav-drop:hover .nav-drop-content{
+    display: block;
 }
 
 /*======== content ===============*/

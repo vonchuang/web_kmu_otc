@@ -4,6 +4,9 @@
     width: 1080px;
     clear: both;
     margin-right: 20px;
+    background: url(../img/content-left-bg.png) no-repeat;
+    background-size: cover;
+    background-position: 0px -10px;
 }
 
 /* ========= content left ================ */
@@ -29,21 +32,21 @@
     background: url(../img/nav-title.png) no-repeat;
     background-size:20px 20px;
     padding: 5px 5px 0px 25px;
-    background-position: left bottom;
+    background-position: 15px bottom;
     clear: both;
     font-size: 20px;
-    color: rgb(5, 70, 44);
+    color: white;
     width: 175px;
     height: 98px;
     display: table-cell; 
     vertical-align: bottom;
     font-size: 22px;
+    text-indent: 20px;
 }
 
 #content-left {
     width: 180px;
     float: left;
-    margin-right: 20px;
 }
 
 .local-nav ul{
@@ -54,23 +57,27 @@
 }
 
 .local-nav li{
-    background-position: left center;
     float: left;
-	border-bottom: dashed 1px #999;
     width: 180px;
-    height: 30px;
+    height: 41px;
+    text-align: center;
 }
 
 .local-nav a{
-    width: 170px;
+    background: url(../img/local-nav.png) no-repeat;
+    padding: 5px 5px 0px 5px;
+    background-position: left center;
+    width: 130px;
     height: 20px;
+    text-align: center;
+	border-bottom: dashed 1px white;
 }
 
 .local-nav li a, .dropbtn{
     display: inline-block;
     text-decoration: none;
 	text-indent: 10px;
-	color: rgb(53,75,118);
+	color: white;
     font-weight: bold;   
     padding: 5px 7px;
 }
@@ -78,13 +85,11 @@
 
 .local-nav li:hover, .dropdown:hover .dropbtn{
     text-decoration:none;
-	background-color: #555;
 	color: white;
 }
 
 .local-nav a:hover{
 	color: white;
-	background-color: #555;
 }
 
 .local-nav li.dropdown{
@@ -93,7 +98,7 @@
 
 /*=================== content center ================== */
 #content-center-right{
-    width: 870px;
+    width: 900px;
     float: right;
     padding-top: 20px;
     min-height: 800px;
