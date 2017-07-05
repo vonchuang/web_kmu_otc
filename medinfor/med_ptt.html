@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <title>life</title>
-    <link rel="stylesheet" href="../js/reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="../js/reveal.js/css/theme/beige.css" id="theme">
+    <link rel="stylesheet" href="../css/reveal.css">
+    <link rel="stylesheet" href="../css/beige.css" id="theme">
 
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="../js/reveal.js/lib/css/zenburn.css">
+    <link rel="stylesheet" href="../css/zenburn.css">
 </head>
 <body>
     <div class="reveal">
@@ -72,8 +72,8 @@
     </div>
     <!-- div reveal end-->
 
-    <script src="../js/reveal.js/lib/js/head.min.js"></script>
-    <script src="../js/reveal.js/js/reveal.js"></script>
+    <script src="../js/head.min.js"></script>
+    <script src="../js/reveal.js"></script>
 
     <script>
         Reveal.initialize({
@@ -86,7 +86,7 @@
 
             dependencies: [
                 {
-                    src: 'reveal.js/plugin/hightlight/hightlight.js',
+                    src: '../js/hightlight.js',
                     async: true, condition: function(){
                         return !!document.querySelector('pre code');
                     }, callback: function () {
