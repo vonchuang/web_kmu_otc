@@ -38,6 +38,10 @@
     width: 160px;
 }
 
+.local-nav a::before{
+    margin: 0px 1px 0px 0px;
+}
+
 .local-nav .second-nav {
     display: none;
     float: right;

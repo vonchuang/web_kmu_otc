@@ -64,7 +64,7 @@
 }
 
 .local-nav a{
-    width: 130px;
+    width: 140px;
     height: 20px;
     text-align: left;
 	border-bottom: dashed 1px white;
@@ -76,7 +76,7 @@
     content: '◈';
     color: white;
     float: left;
-    margin: 0px 1px 0px 0px;
+    margin: 0px 7px 0px 0px;
     -moz-transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -246,7 +246,7 @@
 /*=================== conter right =======================*/
 
 #content-right{
-    width: 200px;
+    width: 180px;
     float: right;
     padding-top: 20px;
     margin-left: 20px;
@@ -257,7 +257,7 @@
 }
 
 #content-photo{
-    width: 200px;
+    width: 180px;
     height: 160px;
     margin-bottom: 20px;
 	border-bottom:3px solid #ccc;
@@ -274,7 +274,7 @@
 }
 
 #content-story{
-    width: 200px;
+    width: 180px;
     height: 160px;
     margin-bottom: 20px;
 	border-bottom:3px solid #ccc;
@@ -318,11 +318,4 @@
 
 #content-link a:hover{
     font-weight: bold;
-}
-
-#content-music{
-    width: 200px;
-    height: 130px;
-    margin-bottom: 20px;
-	border-bottom:3px solid #ccc;
 }
